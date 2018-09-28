@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+}
+
+.full {
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+
+}
+
+.quarter {
+    width: 25%;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.last-child {
+    background-color: peru;
+}

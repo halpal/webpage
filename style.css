@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-flex {
+    display: flex;
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+.main-brand {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content-box {
+    padding: 10px 0px;
+    border: 1px solid #333;
+}
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    border-left: 1px solid black;
+    padding: 0px;
+}
+
+/* REMEMBER HOW YOU DID THIS FOR ETERNITY!!!!!!!*/
+.links-box {
+    flex: 1;
+    line-height: 100px;
+    align-content: center;
+    vertical-align: middle; 
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666 
+}
+
+.links-pol {
+    background-color: #ffeaa7;
+}
+
+.links-tech {
+    background-color: aqua;
+}
+
+.links-local {
+    background-color: aquamarine;
+}
+
+.links-op {
+    background-color: cornflowerblue;
+}
+
+.links-sports {
+    background-color: #a29bfe;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; 
+}
+
+
+.h5-design {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 15px 0;
+
+}
+.text-align {
+    text-align: center;
+}
+
+.p-margin {
+    margin-left: 10px;
+}
+.jc-center {
+    /*justify content in the center */
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.quarter-box {
+    width: 25%;
+}
+
+.half-box {
+    width: 50%;
+}
+
+.three-quarter-box {
+    width: 75%;
+}
+
+.story-image {
+    width: 100%
+}
